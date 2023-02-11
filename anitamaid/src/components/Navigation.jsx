@@ -9,7 +9,7 @@ function Navbar() {
             <Link className="active" to='/'>About Us</Link>
             <Link className="active" to='/portfolio'>Vacation Rental Management</Link>
             <Link className="active" to='/contact'>Cleaning Services</Link>
-            <Link className="active" to='/resume'>Schedule</Link>
+            <Link className="active" to='/resume'>Request Cleaning</Link>
           </div>
   );
 }

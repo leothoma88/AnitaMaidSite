@@ -14,10 +14,10 @@ function Aboutme() {
       {/* <div id="header" className="section bg-transparent ">
              <img alt="logo" className="img-circle animate-[wiggle_1s_ease-in-out_infinite]" src={Profile}/>  
         </div> */}
-    <h1 id="aboutme" className='animate-pulse'><span className='bg-blue-700'>About Us</span></h1>
+    <h1 id="aboutme" ><span className='bg-blue-700'>About Us</span></h1>
     
-    <div className='w-auto h-1/2 sm:w-1/2 sm:h-1/2 m-auto bg-white  flex justify-center items-center'>
-        <div className='text-black font-bold p-8' id="aboutmewords"><p className='text-[1rem] word-break text-center text-black'>jhjhdsfdsfdsfdsfdsfdsfdcdsfesdfsdfdsffwefsdfdsfe<br></br>swfsffdsffdfdssdsdsadfdsfdsfdsfdsffdsfdsfds<br></br>fdsfdsefdfdsfdsfdsfdsfdsf<br></br>dsfdsfsdsdfdsfsdfsdfdsfdsfdsfd<br></br>sffsdfdsdasdasdasdasdasdsadasdsadsadfdj</p></div>
+    <div className='bg-blue-700 border-8 border-gray-500 rounded-md mt-10 m-auto sm:w-2/6 '>
+        <div className='text-white font-bold p-8' id="aboutmewords"><p className='text-[1rem] break-words text-center text-white'>jhjhdsfdsfdsfdsfdsfdsfdcdsfesdfsdfdsffwefsdfdsfe<br></br>swfsffdsffdfdssdsdsadfdsfdsfdsfdsffdsfdsfds<br></br>fdsfdsefdfdsfdsfdsfdsfdsf<br></br>dsfdsfsdsdfdsfsdfsdfdsfdsfdsfd<br></br>sffsdfdsdasdasdasdasdasdsadasdsadddsdfdsfwefsadfdj</p></div>
     </div>
     </div>
   );
