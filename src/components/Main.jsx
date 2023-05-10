@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-
+import Footer from './Footer'
 import Navigation from './Navigation';
 import Aboutme from './Aboutme';
 import Project from './Project';
@@ -27,6 +27,7 @@ function Main(){
             <Route path="/contact" element= {<Contact/>}/>
         <Route path="/request" element= {<Request/>}/>
         </Routes>
+        <Footer/>
         
 
     </React.Fragment>

@@ -32,7 +32,7 @@ Email: ${email}
 Address: ${address}
 Time Request: ${time}
 Special Comment: ${comments}`;
-    const mailtoLink = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:info@anitamaid.com?subject=${subject}&body=${body}`;
     window.location.href = mailtoLink;
     // send email with form data
     console.log("Form Data: ", formData);
@@ -42,7 +42,7 @@ Special Comment: ${comments}`;
 
 
 <div >
-            <h1><span className='bg-[#0369A1]'>Make a Request</span></h1>
+            <h1><span className='bg-[#0369A1]'>GET A QUOTE</span></h1>
     <div className="bg-[#0369A1] border-8 border-gray-500 rounded-md mt-0 sm:mt-10 m-auto h-[33rem] sm:h-1/2 sm:w-2/6 w-1/2">
     <form className="flex flex-col justify-center items-center h-[%] sm:h-1/2" onSubmit={handleSubmit}>
       <div>

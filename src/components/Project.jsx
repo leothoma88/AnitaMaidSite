@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react';
-
+import {Link} from 'react-router-dom'
 
 
 // We declare an object called styles that will contain a few objects for card and heading styles
@@ -15,14 +15,14 @@ function Card() {
       setIsVisible(true);
     }, []);
     return (
-      <div  className="mt-40 justify-center items-center">
+      <div  className="mt-20 mb-10 justify-center items-center">
         {/* <div id="header" className="section bg-transparent ">
                <img alt="logo" className="img-circle animate-[wiggle_1s_ease-in-out_infinite]" src={Profile}/>  
           </div> */}
-      <h1 id="aboutme" ><span className='bg-[#0369A1]'>About Us</span></h1>
+      <h1 id="aboutme" ><span className='bg-[#0369A1]'>Vacation Rental Managment Section</span></h1>
       
-      <div className='bg-[#0369A1] border-8 border-gray-500 rounded-md mt-10 m-auto sm:w-2/6 '>
-          <div className='text-white font-bold p-8' id="aboutmewords"><p className='text-[1rem] break-words text-center text-white'>jhjhdsfdsfdsfdsfdsfdsfdcdsfesdfsdfdsffwefsdfdsfe<br></br>swfsffdsffdfdssdsdsadfdsfdsfdsfdsffdsfdsfds<br></br>fdsfdsefdfdsfdsfdsfdsfdsf<br></br>dsfdsfsdsdfdsfsdfsdfdsfdsfdsfd<br></br>sffsdfdsdasdasdasdasdasdsadasdsadddsdfdsfwefsadfdj</p></div>
+      <div className='bg-[#0369A1] border-8 border-gray-500 rounded-md mt-10 m-auto sm:w-5/6 '>
+          <div className='text-white font-bold p-8' id="aboutmewords"><p className='text-[1rem] break-words text-center text-white'><br></br>AnitaMaid Property Management offers comprehensive management services, including property listing, pricing optimization, guest communication, and maintenance. With a focus on customer satisfaction and attention to detail, Daniela and her team ensure that every rental property under their management is maintained to the highest standards. Contact AnitaMaid Property Management today to experience the benefits of having a trusted partner in property management.<br></br><br></br><Link className="active" to='/request'>Click Here to Request Cleaning</Link></p></div>
       </div>
       </div>
     );
