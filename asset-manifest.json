@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AnitaMaidSite/static/css/main.ddb716f4.css",
-    "main.js": "/AnitaMaidSite/static/js/main.c76f2480.js",
+    "main.js": "/AnitaMaidSite/static/js/main.04583067.js",
     "static/media/Untitled00000273.mov": "/AnitaMaidSite/static/media/Untitled00000273.97be09f7ce8df6fcdfd1.mov",
     "index.html": "/AnitaMaidSite/index.html",
     "main.ddb716f4.css.map": "/AnitaMaidSite/static/css/main.ddb716f4.css.map",
-    "main.c76f2480.js.map": "/AnitaMaidSite/static/js/main.c76f2480.js.map"
+    "main.04583067.js.map": "/AnitaMaidSite/static/js/main.04583067.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb716f4.css",
-    "static/js/main.c76f2480.js"
+    "static/js/main.04583067.js"
   ]
 }
